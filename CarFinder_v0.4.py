@@ -66,6 +66,9 @@ def main():
             vehicle_name = input('Please Enter the full Vehicle name you would like to add:')
             add_vehicle(vehicle_name)
         elif option == '4':
+            vehicle_name = input('Please Enter the full Vehicle name you would like to remove:')
+            remove_vehicle(vehicle_name)
+        elif option == '5':
             print('Thank you for using the AutoCountry Vehicle Finder, good-bye!')
             break
         else:
