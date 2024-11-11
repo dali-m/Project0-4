@@ -43,7 +43,7 @@ def remove_vehicle(vehicle_name):
         confirmation = input(f"Are you sure you want to remove '{vehicle_name}' from the Allowed Vehicles List? (yes/no): ")
         if confirmation.lower() == 'yes':        
             AllowedVehiclesList.remove(vehicle_name)
-        print(f"{vehicle_name} has been removed as an authorized vehicle.")
+        print(f"You have REMOVED '{vehicle_name}' as an authorized vehicle.")
 
 
 
