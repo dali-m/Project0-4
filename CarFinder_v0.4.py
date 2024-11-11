@@ -12,7 +12,8 @@ def print_menu():
     print('1. PRINT all Authorized Vehicles')
     print('2. SEARCH for Authorized Vehicle')
     print('3. ADD Authorized Vehicle')
-    print('4. Exit')
+    print('4. DELETE Authorized Vehicle')
+    print('5. Exit')
     print('********************************')
 
 #Adding the end part of the menu.
