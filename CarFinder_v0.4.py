@@ -37,6 +37,12 @@ def add_vehicle(vehicle_name):
         AllowedVehiclesList.append(vehicle_name)
         print(f"You have added {vehicle_name} as an authorized vehicle.")
 
+#Defining the DELETE option.
+def remove_vehicle(vehicle_name):
+    if vehicle_name in AllowedVehiclesList:
+        AllowedVehiclesList.remove(vehicle_name)
+        print(f"{vehicle_name} has been removed as an authorized vehicle.")
+
 
 
 #Second part of the menu 
